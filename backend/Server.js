@@ -25,7 +25,7 @@ try {
     console.log(error);
 }
 
-//routes
+//routes for api
 app.use("/api/user", userRoute);
 app.use("/api/message", messageRoute);
 
